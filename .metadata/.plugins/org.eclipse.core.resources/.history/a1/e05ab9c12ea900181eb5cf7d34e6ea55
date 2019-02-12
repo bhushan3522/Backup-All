@@ -1,0 +1,22 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[] =  {1,2,3,4,5};
+		
+		System.out.println(a.length);
+		
+		
+		int b[] = new int[4];
+		
+		for(int i = 1; i < a.length;i++)
+		{
+			b[i]=a[i];
+			System.out.println("===========================");
+			System.out.println(b[i]);
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package firstPgm;
+
+public class EncapMainClass {
+
+	int a;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("hi"+ EncapMainClass.a+7);
+
+	}
+	public void a()
+	{
+		int b;
+	}
+}

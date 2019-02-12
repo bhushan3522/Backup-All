@@ -1,0 +1,23 @@
+package TP;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrokenLinksImgs {
+
+	public static void main(String[] args)  {
+
+		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Chrome\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.gsmarena.com/");
+		
+		WebElement link = driver.findElement(By.xpath("//a[text()='Samsung']"));
+		String name = link.getAttribute("href");
+		
+		System.out.println(name);
+
+	}
+}

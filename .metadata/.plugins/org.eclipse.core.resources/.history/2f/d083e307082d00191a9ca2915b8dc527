@@ -1,0 +1,30 @@
+package SimplePrograms;
+
+import java.util.Scanner;
+
+public class ArmstrongTest {
+
+	public static void main(String[] args) {
+		
+		int digit,sum=0;
+		System.out.println("Enter the number for the Armstrong test : ");
+		Scanner sc = new Scanner(System.in);
+		
+		int number = sc.nextInt();
+		int a = number;
+		
+		while(number > 0)
+		{
+			digit = a % 10;
+			a = a / 10;
+			sum = sum + digit * digit * digit;
+			System.out.println(sum);
+		}
+		if(sum == number)
+			System.out.println("Number is Armstrong number"+sum);
+		else
+			System.out.println("Number is not Armstrong number");
+
+	}
+
+}

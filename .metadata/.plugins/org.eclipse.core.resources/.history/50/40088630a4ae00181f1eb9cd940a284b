@@ -1,0 +1,5 @@
+package com.ultimateqa.tests;
+
+public class LoginPageTest {
+
+}

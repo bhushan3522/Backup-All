@@ -1,0 +1,9 @@
+package com.freeCRM.pages;
+
+import org.openqa.selenium.support.FindBy;
+
+public class PreLoginPage {
+	
+	@FindBy(xpath=)
+
+}

@@ -1,0 +1,7 @@
+package com.ultimateqa.test;
+
+public class TestLogin {
+
+	@Test
+	
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-02T13:26:34Z" name="Default suite" finished-at="2018-09-02T13:27:22Z" duration-ms="48581">
+    <groups>
+    </groups>
+    <test started-at="2018-09-02T13:26:34Z" name="Default test" finished-at="2018-09-02T13:27:22Z" duration-ms="48581">
+      <class name="com.ultimateqa.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:34Z" name="setup" finished-at="2018-09-02T13:26:45Z" duration-ms="10807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:45Z" name="loginPageTitleTest" finished-at="2018-09-02T13:26:45Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:45Z" name="teardown" finished-at="2018-09-02T13:26:47Z" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:47Z" name="setup" finished-at="2018-09-02T13:26:55Z" duration-ms="7961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footerDisplayTest()[pri:2, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:55Z" name="footerDisplayTest" finished-at="2018-09-02T13:26:55Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerDisplayTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:55Z" name="teardown" finished-at="2018-09-02T13:26:55Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:26:55Z" name="setup" finished-at="2018-09-02T13:27:05Z" duration-ms="9754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:3, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:27:05Z" name="loginTest" finished-at="2018-09-02T13:27:22Z" duration-ms="17359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ultimateqa.tests.LoginPageTest@7c83dc97]" started-at="2018-09-02T13:27:22Z" name="teardown" finished-at="2018-09-02T13:27:22Z" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ultimateqa.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

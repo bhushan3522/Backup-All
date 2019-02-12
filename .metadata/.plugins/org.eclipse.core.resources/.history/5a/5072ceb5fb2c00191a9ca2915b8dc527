@@ -1,0 +1,29 @@
+package SimplePrograms;
+
+import java.util.Scanner;
+
+public class AscendingOrder {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Enter how many numbers you want to sort : ");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		int nums[] = new int[n];
+		System.out.println("Enter the numbers you want to sort : ");
+		
+		for(int i = 0 ; i < n ; i++)
+		{
+			nums[i] = sc.nextInt();
+		}
+		
+		System.out.println("Unsprted array : ");
+		
+		for(int i = 0 ; i < n ; i++)
+		{
+			System.out.print(nums[i]+" ");
+		}
+	}
+
+}

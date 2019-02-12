@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-08-28T14:56:49Z" name="Default suite" finished-at="2018-08-28T14:59:05Z" duration-ms="136256">
+    <groups>
+    </groups>
+    <test started-at="2018-08-28T14:56:49Z" name="Default test" finished-at="2018-08-28T14:59:05Z" duration-ms="136256">
+      <class name="TestLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:56:49Z" name="setup" finished-at="2018-08-28T14:57:26Z" duration-ms="36486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogIn(java.lang.String, java.lang.String)[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:57:26Z" name="TestLogIn" data-provider="DataGenerator" finished-at="2018-08-28T14:57:28Z" duration-ms="2384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr128724]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[evubysA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:57:28Z" name="tearDown" finished-at="2018-08-28T14:57:29Z" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:57:29Z" name="setup" finished-at="2018-08-28T14:57:58Z" duration-ms="29216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogIn(java.lang.String, java.lang.String)[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:57:58Z" name="TestLogIn" data-provider="DataGenerator" finished-at="2018-08-28T14:58:00Z" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[evubysA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:58:00Z" name="tearDown" finished-at="2018-08-28T14:58:00Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:58:00Z" name="setup" finished-at="2018-08-28T14:58:29Z" duration-ms="28912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogIn(java.lang.String, java.lang.String)[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:58:29Z" name="TestLogIn" data-provider="DataGenerator" finished-at="2018-08-28T14:58:31Z" duration-ms="2427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:58:31Z" name="tearDown" finished-at="2018-08-28T14:58:32Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:58:32Z" name="setup" finished-at="2018-08-28T14:59:02Z" duration-ms="29948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogIn(java.lang.String, java.lang.String)[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:59:02Z" name="TestLogIn" data-provider="DataGenerator" finished-at="2018-08-28T14:59:05Z" duration-ms="2890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLogin@2f54a33d]" started-at="2018-08-28T14:59:05Z" name="tearDown" finished-at="2018-08-28T14:59:05Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+package com.ultimateqa.pages;
+
+public class LoginPage {
+
+}

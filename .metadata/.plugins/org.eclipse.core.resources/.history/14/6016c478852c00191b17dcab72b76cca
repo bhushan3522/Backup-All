@@ -1,0 +1,26 @@
+package SimplePrograms;
+
+import java.util.Scanner;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		
+		int first = 0, second = 1, third;
+		
+		System.out.println("Enter level : ");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i = 0; i < n; i++)
+		{
+			third = first + second;
+			first = second;
+			second = third;
+			
+			System.out.print(third);
+			System.out.println(" ");
+		}
+	}
+
+}

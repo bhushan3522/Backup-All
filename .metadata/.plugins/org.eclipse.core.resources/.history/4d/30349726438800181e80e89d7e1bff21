@@ -1,0 +1,13 @@
+package firstPgm;
+
+
+public class EverythingEasy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		NewClass nc = new NewClass();
+		System.out.println("Your age is :"+nc.Age());
+	}
+
+}

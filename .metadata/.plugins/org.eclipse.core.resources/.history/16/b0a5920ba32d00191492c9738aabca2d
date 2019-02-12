@@ -1,0 +1,5 @@
+package com.freeCRM.testBase;
+
+public class TestBaseClass {
+
+}

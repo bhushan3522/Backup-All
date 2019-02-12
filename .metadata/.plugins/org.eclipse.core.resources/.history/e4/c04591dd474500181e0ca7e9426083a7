@@ -1,0 +1,10 @@
+package testBankDemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class TestLogIn {
+
+	System.setProperty("webdriver.gecko.driver","E:\\Selenium\\geckodriver.exe");
+	WebDriver driver = new FirefoxDriver();
+}

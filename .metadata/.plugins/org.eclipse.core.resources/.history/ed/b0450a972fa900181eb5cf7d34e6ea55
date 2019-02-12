@@ -1,0 +1,52 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadExcelData {
+
+	public static void main(String args[]) throws IOException
+	{
+		String file = "E:\\Projects\\TestUnltimateQA\\src\\TestData.xlsx";
+	
+		File excel = new File(file);
+	
+		FileInputStream fis = new FileInputStream(excel);
+		
+		Workbook TestData = null;
+		
+		String FileExtensionName = file.substring(file.indexOf("."));
+		//System.out.println(FileExtensionName);
+		if(FileExtensionName.equals(".xlsx"))
+		{
+			TestData = new XSSFWorkbook(fis);
+		}
+		
+		else
+			if(FileExtensionName.equals(".xls"))
+			{
+				TestData = new HSSFWorkbook(fis);
+			}
+		
+		Sheet TestSheet = TestData.getSheet("Sheet1");
+		System.out.println(TestSheet.getFirstRowNum());
+		String data[][] = new String[4][2];
+		//System.out.println(data.length);
+		int rowCount = TestSheet.getLastRowNum();
+		for(int i = 0 ; i < rowCount; i++)
+		{
+			for(int j = 0 ; j < 2; j++)
+			{
+				data[i][j]= TestSheet.getRow(i+1).getCell(j).toString();
+				System.out.println(data[i][j]);
+			}
+		}
+		
+		
+		
+	}
+}

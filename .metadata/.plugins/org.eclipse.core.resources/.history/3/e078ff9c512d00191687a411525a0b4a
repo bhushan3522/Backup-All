@@ -1,0 +1,38 @@
+package SimplePrograms;
+
+public class StringOps {
+	
+	public String reverseString(String s)
+	{
+		String name = s;
+		String revName = "";
+		int len = name.length();
+		
+		for(int i = len-1; i >= 0; i--)
+		{
+			revName = revName + name.charAt(i);
+		}
+		return revName;
+	}
+	
+	public void palindrome(String actual, String reversed)
+	{
+		if(actual.equalsIgnoreCase(reversed))
+			System.out.println("Given string is palindrome");
+		else
+			System.out.println("Given string is not palindrome");
+	}
+
+	public static void main(String[] args) {
+		
+		StringOps sop = new StringOps();
+		
+		String actual = "ANNA";
+		String reversed = sop.reverseString(actual);
+		System.out.println(reversed);
+		
+		sop.palindrome(actual, reversed);
+		
+	}
+
+}

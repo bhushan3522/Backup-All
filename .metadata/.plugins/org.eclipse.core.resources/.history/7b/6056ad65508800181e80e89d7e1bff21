@@ -1,0 +1,14 @@
+package firstPgm;
+
+
+public class EverythingEasy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		NewClass nc = new NewClass();
+		int newAge = nc.Age()+5;
+		System.out.println("Your age is :"+newAge);
+	}
+
+}

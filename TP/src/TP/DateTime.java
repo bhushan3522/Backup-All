@@ -1,0 +1,36 @@
+package TP;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class DateTime {
+
+	WebDriver driver;
+	
+	@BeforeMethod
+	public void setup() throws InterruptedException
+	{
+		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Chrome\\chromedriver.exe");
+		driver = new ChromeDriver();
+		
+		driver.get("https://demos.telerik.com/kendo-ui/datetimepicker/index");
+		
+		driver.findElement(By.xpath("//a[text()=\"Accept Cookies\"]")).click();
+		
+		Thread.sleep(5000);
+		
+		driver.findElement(By.xpath("//input[@id=\"datetimepicker\"]//parent::span//following-sibling::span[2]//child::span[1]")).click();
+	}
+	
+
+
+	@Test
+	public void selectDateTime()
+	{
+	
+		
+	}
+}

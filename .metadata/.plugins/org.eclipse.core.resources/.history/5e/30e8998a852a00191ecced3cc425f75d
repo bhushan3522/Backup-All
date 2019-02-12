@@ -1,0 +1,24 @@
+package firstPgm;
+
+public class EncapMainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		EncapClass obj = new EncapClass();
+		
+		System.out.println(obj.getName());
+		System.out.println(obj.getId());
+		
+		
+		obj.setId(100);
+		obj.setName("Nik");
+		
+		System.out.println("===============================");
+		
+		System.out.println(obj.getName());
+		System.out.println(obj.getId());
+
+	}
+
+}
