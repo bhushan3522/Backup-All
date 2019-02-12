@@ -3894,3 +3894,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.beanshell
 2019-02-11 21:46:53,161 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Projects\ScreenShotFailure\src\main\resources
 2019-02-11 21:46:53,163 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-02-11 21:46:53,164 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Projects\ScreenShotFailure\src\test\resources
+2019-02-12 05:46:44,939 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

@@ -31,10 +31,23 @@ public class LoginPageTest extends TestBaseClass{
 		driver.quit();
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void testLoginPageTitle()
 	{
 		String actualTitle = loginPage.getTitle();
+		
 		Assert.assertEquals(actualTitle, Utility.loginPageTitle);
+	}
+	
+	@Test(priority=2)
+	public void testCRMLogo()
+	{
+		Assert.assertEquals(loginPage.validateCRMLogo(), true);
+	}
+	
+	@Test(priority=3)
+	public void testMotto()
+	{
+		Assert.assertEquals(loginPage.validateMotto(), Utility.loginPageMotto);
 	}
 }

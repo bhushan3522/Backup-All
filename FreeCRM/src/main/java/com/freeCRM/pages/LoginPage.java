@@ -17,6 +17,12 @@ public class LoginPage extends TestBaseClass{
 	@FindBy(xpath="//input[@type=\"submit\" and @value =\"Login\"]")
 	WebElement btnLogin;
 	
+	@FindBy(xpath="//a[@class='navbar-brand']//img[@class='img-responsive']")
+	WebElement crmLogo;
+	
+	@FindBy(xpath="//h1[contains(text(),'Power up your sales, customer service, and marketing')]")
+	WebElement motto;
+	
 	public LoginPage() throws Exception
 	{
 		PageFactory.initElements(driver, this);
@@ -27,5 +33,14 @@ public class LoginPage extends TestBaseClass{
 		return driver.getTitle();
 	}
 	
+	public boolean validateCRMLogo()
+	{
+		return crmLogo.isDisplayed();
+	}
+	
+	public String validateMotto()
+	{
+		return motto.getText();
+	}
 
 }

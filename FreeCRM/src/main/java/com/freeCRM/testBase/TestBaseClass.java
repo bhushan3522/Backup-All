@@ -26,13 +26,13 @@ public class TestBaseClass {
 	{
 		if(prop.getProperty("browser").equalsIgnoreCase("chrome") )
 		{
-			System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Chrome\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", prop.getProperty("chromeDriver"));
 			driver = new ChromeDriver();
 		}
 		else
 			if(prop.getProperty("browser").equalsIgnoreCase("firefox") )
 			{
-				System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", prop.getProperty("geckoDriver"));
 				driver = new FirefoxDriver();
 			}
 		

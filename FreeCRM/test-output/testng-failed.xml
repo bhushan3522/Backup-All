@@ -7,7 +7,7 @@
         <methods>
           <include name="start"/>
           <include name="tearDown"/>
-          <include name="testLoginPageTitle"/>
+          <include name="testMotto"/>
         </methods>
       </class> <!-- com.freeCRM.tests.LoginPageTest -->
     </classes>
