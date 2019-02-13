@@ -31,7 +31,7 @@ public class LoginPageTest extends TestBaseClass{
 		driver.quit();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)
 	public void testLoginPageTitle()
 	{
 		String actualTitle = loginPage.getTitle();
@@ -39,13 +39,13 @@ public class LoginPageTest extends TestBaseClass{
 		Assert.assertEquals(actualTitle, Utility.loginPageTitle);
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,enabled=false)
 	public void testCRMLogo()
 	{
 		Assert.assertEquals(loginPage.validateCRMLogo(), true);
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3,enabled=false)
 	public void testMotto()
 	{
 		Assert.assertEquals(loginPage.validateMotto(), Utility.loginPageMotto);
