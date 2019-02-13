@@ -50,4 +50,11 @@ public class LoginPageTest extends TestBaseClass{
 	{
 		Assert.assertEquals(loginPage.validateMotto(), Utility.loginPageMotto);
 	}
+	
+	@Test
+	public void testLogin()
+	{
+		loginPage.Login("bhushan3522", "tu3f1011032");
+		Assert.assertEquals(driver.getTitle(), "CRMPRO");
+	}
 }

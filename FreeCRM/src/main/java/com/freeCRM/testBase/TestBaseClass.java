@@ -36,7 +36,7 @@ public class TestBaseClass {
 				driver = new FirefoxDriver();
 			}
 		
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		

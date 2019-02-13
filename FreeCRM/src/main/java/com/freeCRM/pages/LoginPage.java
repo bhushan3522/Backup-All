@@ -42,5 +42,13 @@ public class LoginPage extends TestBaseClass{
 	{
 		return motto.getText();
 	}
+	
+	public HomePage Login(String uName, String pwd)
+	{
+		userName.sendKeys(uName);
+		password.sendKeys(pwd);
+		btnLogin.click();
+		return new HomePage();
+	}
 
 }
