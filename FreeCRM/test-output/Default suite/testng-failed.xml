@@ -8,6 +8,8 @@
           <include name="start"/>
           <include name="tearDown"/>
           <include name="testMotto"/>
+          <include name="testLoginPageTitle"/>
+          <include name="testCRMLogo"/>
         </methods>
       </class> <!-- com.freeCRM.tests.LoginPageTest -->
     </classes>
