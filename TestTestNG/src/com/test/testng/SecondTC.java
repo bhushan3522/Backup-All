@@ -4,13 +4,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class SecondTC {
 	
 	String expectedTitle = "Facebook – log in or sign up";
 	WebDriver driver;
+	
+	@BeforeTest
+	public void BTest()
+	{
+		System.out.println("Will be executed before test");
+	}
+	
+	@AfterTest
+	public void ATest()
+	{
+		System.out.println("Will be executed after test");
+	}
+	
 	
 	@BeforeMethod
 	public void setup()
