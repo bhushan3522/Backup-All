@@ -1,3 +1,5 @@
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -6,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 public class TestFacebook {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "F:\\Selenium\\Gecko\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		
 		//maximize browser
@@ -16,7 +18,7 @@ public class TestFacebook {
 		//driver.get("http://www.facebook.com");
 		driver.navigate().to("http://www.facebook.com");
 		
-		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		//first name on registration page
 		driver.findElement(By.xpath(".//*[@id='u_0_l']")).sendKeys("Bhushan");
 		

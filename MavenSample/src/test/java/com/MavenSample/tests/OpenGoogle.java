@@ -21,7 +21,7 @@ public class OpenGoogle {
 	public void open() throws InterruptedException
 	{
 		driver.get("http://www.google.com");
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 	}
 	@AfterMethod
 	public void teardown()

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="&#x0D;&#x0A;&#x09;&#x09;WebElement email = driver.findElement(By.xpath(&quot;//input[@id=&apos;email&apos;]&quot;));&#x0D;&#x0A;&#x09;&#x09;int height = email.getSize().height;&#x0D;&#x0A;&#x09;&#x09;int width = email.getSize().width;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;System.out.println(&quot;Height of email box is &quot; + height + &quot;and width is &quot; + width);&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;Select sel = new Select(driver.findElement(By.xpath(&quot;//select[@id=&apos;day&apos;]&quot;)));&#x0D;&#x0A;&#x09;&#x09;List&lt;WebElement&gt; options = sel.getOptions();&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;for(int i = 0; i &lt; options.size(); i++  )&#x0D;&#x0A;&#x09;&#x09;{&#x0D;&#x0A;&#x09;&#x09;&#x09;System.out.println(options.get(i));&#x0D;&#x0A;&#x09;&#x09;}" key="selection"/>
+		<item key="selection" value="WebDriverWait wait = new WebDriverWait(driver, 20);"/>
 		<list key="findhistory">
+			<item value="WebDriverWait wait = new WebDriverWait(driver, 20);"/>
 			<item value="&#x0D;&#x0A;&#x09;&#x09;WebElement email = driver.findElement(By.xpath(&quot;//input[@id=&apos;email&apos;]&quot;));&#x0D;&#x0A;&#x09;&#x09;int height = email.getSize().height;&#x0D;&#x0A;&#x09;&#x09;int width = email.getSize().width;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;System.out.println(&quot;Height of email box is &quot; + height + &quot;and width is &quot; + width);&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;Select sel = new Select(driver.findElement(By.xpath(&quot;//select[@id=&apos;day&apos;]&quot;)));&#x0D;&#x0A;&#x09;&#x09;List&lt;WebElement&gt; options = sel.getOptions();&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;for(int i = 0; i &lt; options.size(); i++  )&#x0D;&#x0A;&#x09;&#x09;{&#x0D;&#x0A;&#x09;&#x09;&#x09;System.out.println(options.get(i));&#x0D;&#x0A;&#x09;&#x09;}"/>
 			<item value="sysout"/>
 			<item value=""/>
