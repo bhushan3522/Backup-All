@@ -20,6 +20,14 @@ public class StrConcat {
 		
 		s1=s1.concat(" ").concat(s2);
 		System.out.println("Proper Concatination is : "+s1);
+		
+		//String Concatenation using + operator
+		String s3 = "Sachin";
+		s3 = s3+"Tendulkar";
+		System.out.println("New String is : "+s3);
+		
+		//String Concatenation with integers
+		System.out.println(40+40+"Sachin"+40+40);
 	}
 
 }
