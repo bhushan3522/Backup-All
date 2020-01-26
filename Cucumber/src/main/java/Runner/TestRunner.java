@@ -10,7 +10,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-        features = "F:\\Projects\\Cucumber\\src\\main\\java\\Features\\hooks.feature",
+        features = "src/main/java/Features",
         glue = {"StepDefinitions"},
 		plugin = {
         "pretty",

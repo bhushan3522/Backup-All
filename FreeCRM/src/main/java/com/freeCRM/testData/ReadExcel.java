@@ -51,7 +51,7 @@ public class ReadExcel {
 	public static void main(String args[])
 	{
 		ReadExcel r = new ReadExcel();
-		System.out.println("First cell no :"+ Works);
+		//System.out.println("First cell no :"+ Works);
 	}
 
 }

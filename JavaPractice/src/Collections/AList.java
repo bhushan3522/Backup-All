@@ -2,50 +2,30 @@ package Collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class AList {
 
 	public static void main(String[] args) {
 		
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		List <String> arrList = new ArrayList<String>();
+		String testString = "This is a test string to verify the working of Arraylist in Java";
 		
-		al.add(10);
-		al.add(20);
-		al.add(30);
-		al.add(40);
-		al.add(50);
+		String testStringArr[] = testString.split(" ");
 		
-		//al.add(2, 100);
-		//al.set(2, 100);
-		
-		ArrayList<Integer> al2 = new ArrayList<Integer>();
-		al2.add(100);
-		al2.add(90);
-		
-		al.addAll(1, al2);
-		System.out.println(al);
-		
-		//System.out.println(al);
-		
-		/*
-		 * System.out.println("Printing using advance for loop");
-		 
-		for(int a : al)
+		for(int i=0; i < testStringArr.length;i++)
 		{
-			System.out.println(a);
+			arrList.add(testStringArr[i]);
 		}
-		System.out.println("=====================================");
 		
-		Iterator<Integer> it = al.iterator();
+		arrList.remove("working");
+		
+		
+		Iterator<String> it = arrList.iterator();
 		while(it.hasNext())
 		{
 			System.out.println(it.next());
 		}
-		
-		System.out.println("first element is : "+al.get(2));
-		System.out.println("size is : "+al.size());
-		*/
-				
 	}
 
 }

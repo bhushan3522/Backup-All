@@ -58,6 +58,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.makemytrip"/>
+			<item value="com.qa.crmpro"/>
 			<item value="com.practice.Cucumber"/>
 			<item value="com.practice"/>
 			<item value="com.Cucumber.practice.Cucumber"/>
@@ -65,12 +67,15 @@
 			<item value="com.FreeCRM.FreeCRM"/>
 		</list>
 		<list key="groupId">
+			<item value="com.qa"/>
 			<item value="com.practice"/>
 			<item value="com.Cucumber.practice"/>
 			<item value="com.TestMaven"/>
 			<item value="com.FreeCRM"/>
 		</list>
 		<list key="artifactId">
+			<item value="makemytrip"/>
+			<item value="crmpro"/>
 			<item value="Cucumber"/>
 			<item value="MavenSample"/>
 			<item value="FreeCRM"/>

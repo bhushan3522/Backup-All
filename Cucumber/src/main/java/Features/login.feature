@@ -1,22 +1,24 @@
 Feature: CRMPRO login feature
 
-#Scenario: CRMPRO login test
-
-#Given user has launched google chrome browser
-#When user is already on login page
-#Then user will enter "bhushan3522" and "tu3f1011032"
-#Then user will click on login button
-#Then user will be navigated to home page
-
-Scenario Outline:
+Scenario Outline: CRMPRO invalid login test
 
 Given user has launched google chrome browser
 When user is already on login page
-Then user will enter "<username>" and "<password>"
-Then user will click on login button
-Then user will be navigated to home page
+Then user will enter "<username>" and "<password>" and hit enter button
 
 Examples:
-|	username	|	password	|
-|	abc			|	123			|
-|	zxc			|	456			|
+	|	username	|	password	|
+	|	abc			|	123			|
+	|	dfg			|	456			|
+	|	hij			|	789			|
+
+
+Scenario: CRMPRO valid login test
+
+Given user has launched google chrome browser
+When user is already on login page
+Then user will enter "bhushan3522" and "tu3f1011032" and hit enter button
+Then user will be navigated to home page
+Then verify loggedin username
+Then logout
+Then close the browser
